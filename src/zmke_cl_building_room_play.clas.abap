@@ -14,7 +14,7 @@ ENDCLASS.
 CLASS zmke_cl_building_room_play IMPLEMENTATION.
 
   METHOD if_oo_adt_classrun~main.
-    data building type ref to zmke_if_building.
+    DATA building TYPE REF TO zmke_if_building.
   ENDMETHOD.
 
 ENDCLASS.
