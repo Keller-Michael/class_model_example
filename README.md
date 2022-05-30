@@ -12,7 +12,7 @@ classDiagram
     
     class ZMKE_CL_ROOM{
           -room_number
-          -get_room_setup()
+          +get_room_setup()
     }    
     
     click ZMKE_CL_BUILDING href "https://github.com/Keller-Michael/class_model_example/blob/main/src/zmke_cl_building.clas.abap" 
