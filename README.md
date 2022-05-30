@@ -7,17 +7,14 @@ classDiagram
     ZMKE_CL_BUILDING *-- ZMKE_CL_ROOM
     
     class ZMKE_CL_BUILDING{
-          -address
-          +get_instance()
-          -is_empty()
+          -building_number
     }
     
     class ZMKE_CL_ROOM{
           -room_number
-          +get_instance()
-          -is_booked()
+          -get_room_setup()
     }    
     
-    click ZMKE_CL_BUILDING href "../src/zmke_cl_room.clas.abap" 
-    click ZMKE_CL_ROOM href "../src/zmke_cl_building.clas.abap"
+    click ZMKE_CL_BUILDING href "./src/zmke_cl_room.clas.abap" 
+    click ZMKE_CL_ROOM href "./src/zmke_cl_building.clas.abap"
 ```
