@@ -1,0 +1,3 @@
+INTERFACE zmke_if_room PUBLIC.
+
+ENDINTERFACE.

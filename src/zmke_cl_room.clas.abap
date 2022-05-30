@@ -1,0 +1,13 @@
+"! Class to represent a room as an object.
+CLASS zmke_cl_room DEFINITION PUBLIC FINAL CREATE PUBLIC.
+
+  PUBLIC SECTION.
+  PROTECTED SECTION.
+  PRIVATE SECTION.
+
+ENDCLASS.
+
+
+
+CLASS zmke_cl_room IMPLEMENTATION.
+ENDCLASS.
